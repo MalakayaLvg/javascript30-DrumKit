@@ -18,13 +18,16 @@ body html{
 
 .key{
     width: 100px;
-    border: #8d1554 solid;
+    border: #a21760 solid;
     font-size: 1.5rem;
+    font-weight: bolder;
     text-align: center;
     display: flex;
     flex-direction: column;
     color: white;
     transition: all 0.7s;
+    margin: 0 10px 0 10px;
+    padding: 5px;
 
 }
 
@@ -33,6 +36,12 @@ body html{
     border-color: yellow;
     box-shadow: 0 0 10px yellow;
 
+}
+
+kbd{
+    color: yellow;
+    font-size: 0.8rem;
+    padding: 3px 0 3px 0;
 }
 
 
